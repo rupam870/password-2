@@ -4,7 +4,7 @@ function checkPassword() {
     const errorMessage = document.getElementById("error-message");
 
     if (password === correctPassword) {
-        window.location.href = "https://rupamgumber.framer.website/xalts";
+        window.location.href = "https://rupamgumber.framer.website/clearfeed";
     } else {
         errorMessage.textContent = "Incorrect password.";
     }
